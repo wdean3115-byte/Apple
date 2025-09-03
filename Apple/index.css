@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+}
+
+.page1 {
+  margin-top: 10px;
+  display: flex;
+  background-color: rgba(245, 245, 247, 0.8);
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 14px;
+}
+.Navigationbar {
+  width: 390px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Store {
+  display: none;
+}
+.img {
+  width: 16px;
+  height: 19px;
+  padding: 0 15px 0 16px;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  display: flex;
+  height: 73px;
+  padding: 18px 31px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  text-align: center;
+}
+.A {
+  background-size: cover;
+  background-image: url(/Figure.jpg);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 16px;
+  padding-bottom: 36px;
+}
+
+.e {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.S {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.Q {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.K {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.button1 {
+  width: 110px;
+  height: 36px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: #0071e3;
+}
+.B1 {
+  width: 50px;
+  height: 36px;
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  font-size: 14px;
+  color: #2997ff;
+}
+.page2 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure2.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+  padding-top: 20px;
+}
+.ZX {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.button2 {
+  width: 110px;
+  height: 36px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: #2997ff;
+}
+.B2 {
+  width: 50px;
+  height: 36px;
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  font-size: 14px;
+  color: #2997ff;
+}
+
+.page3 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure3.png);
+  height: 500px;
+  padding-top: 16px;
+}
+.ima {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: center;
+  position: relative;
+  left: 105px;
+}
+.O {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.footer {
+  font-size: 14px;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  left: 120px;
+  top: 310px;
+}
+
+.page4 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure4.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+.P {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+.page5 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure5.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+.ap {
+  width: 22px;
+  height: 27px;
+}
+.Z {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.M {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.I {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.ap {
+  position: relative;
+  left: 110px;
+  top: 42px;
+}
+.page6 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure6.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+  padding-bottom: 30px;
+}
+.W {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 10px;
+}
+.lo {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.page7 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure7.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+  padding-bottom: 40px;
+}
+.WOW {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 10px;
+}
+.los {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0%;
+}
+.page8 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure8.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 16px;
+  padding-bottom: 40px;
+}
+.p8 {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+.V {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.page9 {
+  margin-top: 10px;
+  background-size: cover;
+  background-image: url(/Figure9.png);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+}
+.aps {
+  position: relative;
+  width: 22px;
+  height: 27px;
+  left: 105px;
+  top: 40px;
+}
+.p9 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Vo {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.page10 {
+  margin-top: 10px;
+  height: 500px;
+  background-color: white;
+}
+
+.RE {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  overflow: scroll;
+  gap: 10px;
+}
+.Rb {
+  display: none;
+}
+
+.dot34 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: black;
+}
+.dot1 {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #949494;
+}
+.fo {
+  display: flex;
+  gap: 10px;
+  overflow: scroll;
+  width: 100%;
+  padding-top: 10px;
+}
+.play {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .A {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+    padding-top: 20px;
+    background-image: url(/Tablet\ 1.png);
+    height: 650px;
+  }
+  .page2 {
+    background-image: url(/Tablet2.png);
+    height: 650px;
+  }
+  .page3-3 {
+    display: none;
+  }
+  .page4-4 {
+    display: none;
+  }
+  .page3 {
+    background-image: url(/Tablet3.png);
+    height: 650px;
+  }
+  .p4 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .page4 {
+    width: 50%;
+  }
+  .page5 {
+    width: 50%;
+  }
+  .p5 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .page6 {
+    width: 50%;
+  }
+  .page7 {
+    width: 50%;
+  }
+  .p6 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .page8 {
+    width: 50%;
+  }
+  .page9 {
+    width: 50%;
+  }
+  .RE {
+    display: none;
+  }
+  .Rb {
+    display: flex;
+    overflow: scroll;
+    gap: 10px;
+    width: 100%;
+    height: 368px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .A {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 16px;
+    display: flex;
+    width: 1920px;
+    padding: 16px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-position: center;
+    background-image: url(/desktop1.jpg);
+    width: 1920px;
+    height: 692px;
+  }
+  .page1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .page2 {
+    width: 1920px;
+    height: 692px;
+    background-image: url(/descktop2.jpg);
+    background-position: center;
+  }
+  .page3 {
+    width: 1920px;
+    height: 692px;
+  }
+  .Store {
+    font-size: 12px;
+    color: black;
+    display: flex;
+    width: 24px;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  .page3 {
+    width: 50%;
+    background-position: center;
+  }
+  .page3-3 {
+    background-size: cover;
+    background-position: center;
+    width: 1920px;
+    height: 692px;
+    background-image: url(/Figureapple.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 82px;
+    gap: 5px;
+  }
+  .WOWs {
+    color: #1d1d1f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    padding-top: 10px;
+  }
+  .loss {
+    color: #1d1d1f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0%;
+  }
+  .p3 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .page4-4 {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
+    gap: 16px;
+    background-image: url(/airpod2.jpg);
+    padding-bottom: 58px;
+  }
+  .Oo {
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .lost {
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0%;
+  }
+  .page4 {
+    display: none;
+  }
+  .page5 {
+    background-image: url(/descktopwatch.jpg);
+    background-position: center;
+  }
+}
